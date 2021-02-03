@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <h3>Unreleased Juice WRLD</h3>
+      <h3>RIP Juice WRLD</h3>
       <Albums />
     </>
   )

@@ -36,9 +36,6 @@ export default function Albums(props) {
                 <button className="btn album-cover-3"></button>
                 <button className="btn album-cover-4"></button>
             </div>
-            <div className='btn-container'>
-                <button className="btn addnewalbum">+</button>
-            </div>
         </>
     )
 }
