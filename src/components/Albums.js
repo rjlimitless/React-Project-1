@@ -58,8 +58,6 @@ import Freestyle8 from "../songs/Freestyle8.mp3"
 
 
 
-
-
 export default function Albums() {
 
     const [isPlaylist1open, setPlaylist1open] = useState(false)
