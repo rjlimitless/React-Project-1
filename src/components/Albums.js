@@ -1,40 +1,42 @@
 import React, { useState } from 'react'
 import '../App.css'
-
 export default function Albums(props) {
 
     const [isPlaylist1open, setPlaylist1open] = useState(false);
 
-    const playlistbuttonClass = () => isPlaylist1open ? '' : 'hide';
+    const playlistOpen = () => isPlaylist1open ? '' : 'hide';
 
     return (
         <> 
             <div className= {isPlaylist1open ? 'showplaylist1' : ''}>
 
-                <li className={isPlaylist1open ? '' : 'hide'}>
+                <button id='playlist-btn' className={isPlaylist1open ? '' : 'hide'}
+                                onClick={() => setPlaylist1open(!isPlaylist1open)}>
+                                X</button>
 
-                    <button className={playlistbuttonClass() + 'playlist-btn'}
-                            onClick={() => setPlaylist1open(!isPlaylist1open)}>
-                            Home</button>
-                    <ul>link1</ul>
-                    <ul>link1</ul>
-                    <ul>link1</ul>
-                    <ul>link1</ul>
-
+                <li className={playlistOpen()}>
+                    <ul><button className={'audioplayer'}>audio player</button></ul>
+                    <ul><button className={'audioplayer'}>audio player</button></ul>
+                    <ul><button className={'audioplayer'}>audio player</button></ul>
+                    <ul><button className={'audioplayer'}>audio player</button></ul>
                 </li>
             </div>
+            
             <div className='btn-container'>
                 <button 
                     className="btn album-cover-1"
                     isPlaylist1open={isPlaylist1open} 
-                    onClick={() => setPlaylist1open(!isPlaylist1open)}
-                ></button>
+                    onClick={() => setPlaylist1open(!isPlaylist1open)}>Chill
+                </button>
                 
-                <button className="btn album-cover-2"></button>
+                <button className="btn album-cover-2"
+                        >Hype
+                
+                </button>
             </div>
             <div className='btn-container'>
-                <button className="btn album-cover-3"></button>
-                <button className="btn album-cover-4"></button>
+                <button className="btn album-cover-3">Sad</button>
+                <button className="btn album-cover-4">Love</button>
             </div>
         </>
     )

@@ -1,6 +1,5 @@
-import React, { useState } from "react"
+import React from "react"
 import Albums from './components/Albums'
-import './App.css'
 
 function App() {
 
