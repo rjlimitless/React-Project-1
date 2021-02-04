@@ -1,3 +1,5 @@
+
+
 h3{
   text-align: center;
   border-bottom:2px solid black;
@@ -15,37 +17,155 @@ h3{
   padding: 0.1rem;
 }
 
+#audioplayer1{
+  margin-top: 2.4rem;
+  padding: 0.25rem 0.6rem 0rem 0.6rem;
+  display: flex;
+  align-content: flex-start;
+}
+
+#audioplayer2{
+  margin-top: 2.4rem;
+  padding: 0.25rem 0.6rem 0rem 0.6rem;
+  display: flex;
+  align-content: flex-start;
+}
+
+#audioplayer3{
+  margin-top: 2.4rem;
+  padding: 0.25rem 0.6rem 0rem 0.6rem;
+  display: flex;
+  align-content: flex-start;
+}
+
+#audioplayer4{
+  margin-top: 2.4rem;
+  padding: 0.25rem 0.6rem 0rem 0.6rem;
+  display: flex;
+  align-content: flex-start;
+}
+
 .audioplayer{
   padding: 0.25rem 0.6rem 0rem 0.6rem;
-  margin: 0.25rem;
-  font-size: 7rem;
-  opacity: 0.75;
+  display: flex;
+  align-content: flex-start;
 }
 
-.audioplayer:hover{
-  box-shadow: 0 12px 16px 0 rgb(0, 0, 0),0 17px 50px 0 rgba(0,0,0,0.19);
-  transform: scale(1.02); 
+.rhap_container{
+  background-color: rgba(255, 255, 255, 0) !important;
+  border: 1px solid black;
+  color: white !important;
 }
-.audioplayer:active{
-  transform: scale(0.98); 
+
+.rhap_button-clear{
+  color:rgb(0, 0, 0) !important;
 }
+
+.rhap_button-clear:active{
+  outline: 0 !important;
+}
+
+.rhap_progress-section{
+  width: 0px;
+  justify-content: flex-end;
+}
+
+.rhap_progress-container{
+  display: none !important;
+}
+
+.rhap_additional-controls{
+  display: none !important;
+}
+.rhap_volume-controls{
+  display: none !important;
+}
+.rhap_current-time{
+  display: none !important;
+}
+
+.rhap_total-time{
+  display: none !important;
+}
+
+.rhap_controls-section{
+  padding: 0rem .5rem 0.4rem 0rem;
+  font-size: 5.5vw;
+  min-width: 100%;
+  height: 10vw;
+  font-style: italic;
+}
+
 
 #playlist-btn{
-  height: 10vh;
-  width: 10vh;
+  margin: .60rem;
+  height: 5vh;
+  width: 5vh;
   border-radius: 7%;
-  font-size: 3rem;
+  font-size: 4vh;
   position: absolute;
   right: 0;
   top: 0;
 }
 
+#playlist-btn2{
+  margin: .60rem;
+  height: 5vh;
+  width: 5vh;
+  border-radius: 7%;
+  font-size: 4vh;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+}
+
+#playlist-btn3{
+  margin: .60rem;
+  height: 5vh;
+  width: 5vh;
+  border-radius: 7%;
+  font-size: 4vh;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+}
+
+#playlist-btn4{
+  margin: .60rem;
+  height: 5vh;
+  width: 5vh;
+  border-radius: 7%;
+  font-size: 4vh;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+}
+
 #playlist-btn:hover{
   transform: scale(1.05); 
+  background-color: rgb(0, 0, 0);
+}
+
+#playlist-btn2:hover{
+  transform: scale(1.05); 
+  background-color: rgb(0, 0, 0);
+}
+
+#playlist-btn3:hover{
+  transform: scale(1.05); 
+  background-color: rgb(0, 0, 0);
+}
+
+#playlist-btn4:hover{
+  transform: scale(1.05); 
+  background-color: rgb(0, 0, 0);
 }
 
 .playlist-btn:hover{
-  box-shadow: 0 12px 16px 0 rgb(0, 0, 0),0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 16px 0 rgb(0, 0, 0),0 17px 50px 0 rgba(204, 191, 191, 0.842);
   transform: scale(1.02);
 }
 .playlist-btn:active{
@@ -54,17 +174,14 @@ h3{
 
 .btn-container{
   display: flex;
-  margin-left: 5vh;
-  margin-right: 5vh;
   justify-content: center;
   align-items: center;
 }
 
 .btn{
-  height: 47.7vh;
-  width: 47.7vh;
-  font-size: 3rem;
-  margin: 0.25rem 0rem 0.25rem 0rem;
+  height: 50vh;
+  width: 50vw;
+  margin: 0.25rem 0rem 0rem 0rem;
   background-color: rgb(63, 63, 63);
   border-radius: 5%;
 }
@@ -79,27 +196,41 @@ h3{
 }
 
 .album-cover-1{
-  background: url(./images/Juice1.jpeg);
+  background: url(./images/Juice1.jpg);
   background-size: cover;
   background-position: center;
   color: rgba(255, 255, 255, 0.507);
   display: flex;
   justify-content: center;
+  font-size: 2rem;
 }
 .album-cover-2{
   background: url(./images/Juice2.jpg);
   background-size: cover;
   background-position: center;
+  color: rgba(255, 255, 255, 0.507);
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
 }
 .album-cover-3{
   background: url(./images/Juice3.jpg);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
+  color: rgba(255, 255, 255, 0.849);
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
 }
 
 .album-cover-4{
   background: url(./images/Juice4.jpg);
   background-size: contain;
+  background-position: center;
+  color: rgba(255, 255, 255, 0.671);
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
 }
 .addnewalbum{
   background-color: rgba(173, 172, 172, 0.691);
@@ -118,7 +249,51 @@ h3{
   padding-top: 5%;
   position: absolute;
   width: 100%;
-  height: 175%;
+  height: 250%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: linear-gradient(150deg, rgb(161, 161, 161), black);
+  z-index: 2; 
+  font-size: 3rem;
+}
+
+.showplaylist2
+{
+  padding-top: 5%;
+  position: absolute;
+  width: 100%;
+  height: 250%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: linear-gradient(150deg, rgb(161, 161, 161), black);
+  z-index: 2; 
+  font-size: 3rem;
+}
+
+.showplaylist3
+{
+  padding-top: 5%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 250%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: linear-gradient(150deg, rgb(161, 161, 161), black);
+  z-index: 2; 
+  font-size: 3rem;
+}
+
+.showplaylist4
+{
+  padding-top: 5%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 250%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
