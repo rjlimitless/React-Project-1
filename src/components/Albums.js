@@ -7,6 +7,7 @@ import 'react-h5-audio-player/lib/styles.css';
 
 //Chill
 import TheLight from "../songs/TheLight.mp3"
+import Starstruck from "../songs/Starstruck.mp3"
 import RemindMeOfTheSummer from "../songs/RemindMeOfTheSummer.mp3"
 import OnYourMind from "../songs/OnYourMind.mp3"
 import CaliGirl from "../songs/CaliGirl.mp3"
@@ -17,6 +18,7 @@ import Rental from "../songs/Rental.mp3"
 //Sad
 import FallInMyArms from "../songs/FallInMyArms.mp3"
 import AllAlone from "../songs/AllAlone.mp3"
+import PutMeDown from "../songs/PutMeDown.mp3"
 import Anxiety from "../songs/Anxiety.mp3"
 import Burn from "../songs/Burn.mp3"
 import Deprived from "../songs/Deprived.mp3"
@@ -31,6 +33,7 @@ import Triple9 from "../songs/Triple9.mp3"
 import SorryMom from "../songs/SorryMom.mp3"
 import Tempted from "../songs/Tempted.mp3"
 import MrMiyagi from "../songs/MrMiyagi.mp3"
+import PointGuard from "../songs/PointGuard.mp3"
 import PurpleMoncler from "../songs/PurpleMoncler.mp3"
 
 
@@ -86,8 +89,6 @@ export default function Albums() {
 
 
 
-
-
                     <ul><div id={'audioplayer1'}>
                             <AudioPlayer
 
@@ -111,6 +112,46 @@ export default function Albums() {
                                 />
                         </div>
                         </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <ul><div className={'audioplayer'}>
+                            <AudioPlayer
+
+                                src={Starstruck}
+
+                                autoPlay={false}
+                                layout="horizontal"
+                                showJumpControls={false}
+                                customVolumeControls={[]}
+                                customAdditionalControls={[]}
+                                showFilledProgress={false}
+
+                                customControlsSection={
+                                    [
+                                      <div>Starstuck</div>, 
+                                      RHAP_UI.ADDITIONAL_CONTROLS,
+                                      RHAP_UI.MAIN_CONTROLS,
+                                      RHAP_UI.VOLUME_CONTROLS,
+                                    ]
+                                }
+                                />
+                        </div>
+                        </ul>
+
+
+
+                        
 
 
 
@@ -340,6 +381,45 @@ export default function Albums() {
                             </ul>
 
                         
+
+
+
+
+
+
+                            <ul><div className={'audioplayer'}>
+                                <AudioPlayer
+
+                                src={PutMeDown}
+                                autoPlay={false}
+                                layout="horizontal"
+                                showJumpControls={false}
+                                customVolumeControls={[]}
+                                customAdditionalControls={[]}
+                                showFilledProgress={false}
+                                customControlsSection={
+                                        [
+                                        <div>Put Me Down</div>, 
+
+                                        RHAP_UI.ADDITIONAL_CONTROLS,
+                                        RHAP_UI.MAIN_CONTROLS,
+                                        RHAP_UI.VOLUME_CONTROLS,
+                                        ]
+                                    }
+                                />
+                            </div>
+                            </ul>
+
+
+
+
+
+
+
+
+
+
+
 
 
                             <ul><div className={'audioplayer'}>
@@ -730,6 +810,41 @@ export default function Albums() {
                                                     customControlsSection={
                                                         [
                                                         <div>Mr Miyagi</div>, 
+
+                                                        RHAP_UI.ADDITIONAL_CONTROLS,
+                                                        RHAP_UI.MAIN_CONTROLS,
+                                                        RHAP_UI.VOLUME_CONTROLS,
+                                                        ]
+                                                    }
+                                                    />
+
+                                            </div>
+                                            </ul>
+
+
+
+
+
+
+
+
+
+
+                                            <ul><div className={'audioplayer'}>
+                                                    <AudioPlayer
+
+                                                    src={PointGuard}
+
+                                                    autoPlay={false}
+                                                    layout="horizontal"
+                                                    showJumpControls={false}
+                                                    customVolumeControls={[]}
+                                                    customAdditionalControls={[]}
+                                                    showFilledProgress={false}
+
+                                                    customControlsSection={
+                                                        [
+                                                        <div>Point Guard</div>, 
 
                                                         RHAP_UI.ADDITIONAL_CONTROLS,
                                                         RHAP_UI.MAIN_CONTROLS,
