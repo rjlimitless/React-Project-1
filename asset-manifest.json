@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-Project-1/static/css/main.fa7c8c93.chunk.css",
+    "main.css": "/React-Project-1/static/css/main.b32f86f5.chunk.css",
     "main.js": "/React-Project-1/static/js/main.6e6177a0.chunk.js",
     "main.js.map": "/React-Project-1/static/js/main.6e6177a0.chunk.js.map",
     "runtime-main.js": "/React-Project-1/static/js/runtime-main.2b63d35f.js",
@@ -10,7 +10,7 @@
     "static/js/2.e8784063.chunk.js.map": "/React-Project-1/static/js/2.e8784063.chunk.js.map",
     "index.html": "/React-Project-1/index.html",
     "static/css/2.3e35cbb6.chunk.css.map": "/React-Project-1/static/css/2.3e35cbb6.chunk.css.map",
-    "static/css/main.fa7c8c93.chunk.css.map": "/React-Project-1/static/css/main.fa7c8c93.chunk.css.map",
+    "static/css/main.b32f86f5.chunk.css.map": "/React-Project-1/static/css/main.b32f86f5.chunk.css.map",
     "static/js/2.e8784063.chunk.js.LICENSE.txt": "/React-Project-1/static/js/2.e8784063.chunk.js.LICENSE.txt",
     "static/media/AllAlone.84a047d5.mp3": "/React-Project-1/static/media/AllAlone.84a047d5.mp3",
     "static/media/Anxiety.07f8e72b.mp3": "/React-Project-1/static/media/Anxiety.07f8e72b.mp3",
@@ -48,7 +48,7 @@
     "static/js/runtime-main.2b63d35f.js",
     "static/css/2.3e35cbb6.chunk.css",
     "static/js/2.e8784063.chunk.js",
-    "static/css/main.fa7c8c93.chunk.css",
+    "static/css/main.b32f86f5.chunk.css",
     "static/js/main.6e6177a0.chunk.js"
   ]
 }
