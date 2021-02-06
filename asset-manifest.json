@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/React-Project-1/static/css/main.b32f86f5.chunk.css",
-    "main.js": "/React-Project-1/static/js/main.6e6177a0.chunk.js",
-    "main.js.map": "/React-Project-1/static/js/main.6e6177a0.chunk.js.map",
+    "main.css": "/React-Project-1/static/css/main.261c08e1.chunk.css",
+    "main.js": "/React-Project-1/static/js/main.17da5ef4.chunk.js",
+    "main.js.map": "/React-Project-1/static/js/main.17da5ef4.chunk.js.map",
     "runtime-main.js": "/React-Project-1/static/js/runtime-main.2b63d35f.js",
     "runtime-main.js.map": "/React-Project-1/static/js/runtime-main.2b63d35f.js.map",
     "static/css/2.3e35cbb6.chunk.css": "/React-Project-1/static/css/2.3e35cbb6.chunk.css",
-    "static/js/2.e8784063.chunk.js": "/React-Project-1/static/js/2.e8784063.chunk.js",
-    "static/js/2.e8784063.chunk.js.map": "/React-Project-1/static/js/2.e8784063.chunk.js.map",
+    "static/js/2.cbc4e83d.chunk.js": "/React-Project-1/static/js/2.cbc4e83d.chunk.js",
+    "static/js/2.cbc4e83d.chunk.js.map": "/React-Project-1/static/js/2.cbc4e83d.chunk.js.map",
     "index.html": "/React-Project-1/index.html",
     "static/css/2.3e35cbb6.chunk.css.map": "/React-Project-1/static/css/2.3e35cbb6.chunk.css.map",
-    "static/css/main.b32f86f5.chunk.css.map": "/React-Project-1/static/css/main.b32f86f5.chunk.css.map",
-    "static/js/2.e8784063.chunk.js.LICENSE.txt": "/React-Project-1/static/js/2.e8784063.chunk.js.LICENSE.txt",
+    "static/css/main.261c08e1.chunk.css.map": "/React-Project-1/static/css/main.261c08e1.chunk.css.map",
+    "static/js/2.cbc4e83d.chunk.js.LICENSE.txt": "/React-Project-1/static/js/2.cbc4e83d.chunk.js.LICENSE.txt",
     "static/media/AllAlone.84a047d5.mp3": "/React-Project-1/static/media/AllAlone.84a047d5.mp3",
     "static/media/Anxiety.07f8e72b.mp3": "/React-Project-1/static/media/Anxiety.07f8e72b.mp3",
     "static/media/BlueShit.374d816e.mp3": "/React-Project-1/static/media/BlueShit.374d816e.mp3",
@@ -29,7 +29,8 @@
     "static/media/Freestyle7.e46938d6.mp3": "/React-Project-1/static/media/Freestyle7.e46938d6.mp3",
     "static/media/Freestyle8.91f99a61.mp3": "/React-Project-1/static/media/Freestyle8.91f99a61.mp3",
     "static/media/HateHerFriends.4f8ff0f0.mp3": "/React-Project-1/static/media/HateHerFriends.4f8ff0f0.mp3",
-    "static/media/App.css": "/React-Project-1/static/media/Juice4.68790c26.jpg",
+    "static/media/App.css": "/React-Project-1/static/media/freestylebg.af98d2a8.jpg",
+    "static/media/Playlist.css": "/React-Project-1/static/media/JuicePlayBtn.850ed25e.jpg",
     "static/media/MrMiyagi.fbf9760b.mp3": "/React-Project-1/static/media/MrMiyagi.fbf9760b.mp3",
     "static/media/OnYourMind.1d9107c7.mp3": "/React-Project-1/static/media/OnYourMind.1d9107c7.mp3",
     "static/media/PlayForKeeps.4fab4280.mp3": "/React-Project-1/static/media/PlayForKeeps.4fab4280.mp3",
@@ -47,8 +48,8 @@
   "entrypoints": [
     "static/js/runtime-main.2b63d35f.js",
     "static/css/2.3e35cbb6.chunk.css",
-    "static/js/2.e8784063.chunk.js",
-    "static/css/main.b32f86f5.chunk.css",
-    "static/js/main.6e6177a0.chunk.js"
+    "static/js/2.cbc4e83d.chunk.js",
+    "static/css/main.261c08e1.chunk.css",
+    "static/js/main.17da5ef4.chunk.js"
   ]
 }
