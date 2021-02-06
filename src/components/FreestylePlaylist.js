@@ -70,7 +70,7 @@ import Freestyle8 from "../songs/Freestyle8.mp3"
             },
             {
                 id: 7,
-                title: "Freestyle 6",
+                title: "Freestyle 7",
                 url: ""
                 
             },

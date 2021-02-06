@@ -9,6 +9,7 @@ import OnYourMind from "../songs/OnYourMind.mp3"
 import CaliGirl from "../songs/CaliGirl.mp3"
 import PlayForKeeps from "../songs/PlayForKeeps.mp3"
 import Rental from "../songs/Rental.mp3"
+import TwentyFour from "../songs/24.mp3"
 
 
 
@@ -46,32 +47,32 @@ import Rental from "../songs/Rental.mp3"
             },
             {
                 id: 3,
-                title: "Remind Me Of The Summer",
-                url: ""
-                
-            },
-            {
-                id: 4,
                 title: "On Your Mind",
                 url: ""
             },
             {
-                id: 5,
+                id: 4,
                 title: "Cali Girl",
                 url: ""
                 
             },
             {
-                id: 6,
+                id: 5,
                 title: "Play For Keeps",
                 url: ""
                 
             },
             {
-                id: 7,
+                id: 6,
                 title: "Rental",
                 url: ""
                 
+            },
+            {
+              id: 7,
+              title: "Twenty Four",
+              url: ""
+              
             }
             ].map(item => {
             return (
@@ -168,9 +169,6 @@ componentDidUpdate(prevProps, prevState) {
         case "Starstruck":
           track = Starstruck;
           break;
-        case "Remind Me Of The Summer":
-          track = RemindMeOfTheSummer;
-          break;
         case "On Your Mind":
           track = OnYourMind;
           break;
@@ -182,6 +180,9 @@ componentDidUpdate(prevProps, prevState) {
           break;
         case "Rental":
           track = Rental;
+          break;
+        case "Twenty Four":
+          track = TwentyFour;
           break;
         default:
           break;

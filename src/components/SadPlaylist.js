@@ -7,8 +7,9 @@ import PutMeDown from "../songs/PutMeDown.mp3"
 import Anxiety from "../songs/Anxiety.mp3"
 import Burn from "../songs/Burn.mp3"
 import Deprived from "../songs/Deprived.mp3"
-import BlueShit from "../songs/BlueShit.mp3"
+import Summer from "../songs/RemindMeOfTheSummer.mp3"
 import ElectricChair from "../songs/ElectricChair.mp3"
+import Abyss from "../songs/Abyss.mp3"
 
 
 
@@ -69,7 +70,7 @@ import ElectricChair from "../songs/ElectricChair.mp3"
             },
             {
                 id: 7,
-                title: "Blue Shit",
+                title: "Summer",
                 url: ""
                 
             },
@@ -78,7 +79,13 @@ import ElectricChair from "../songs/ElectricChair.mp3"
                 title: "Electric Chair",
                 url: ""
                 
-            }
+            },
+            {
+              id: 8,
+              title: "Abyss",
+              url: ""
+              
+          }
             ].map(item => {
             return (
                 <div className="ui list">
@@ -186,11 +193,14 @@ componentDidUpdate(prevProps, prevState) {
         case "Deprived":
           track = Deprived;
           break;
-        case "Blue Shit":
-          track = BlueShit;
+        case "Summer":
+          track = Summer;
           break;
         case "Electric Chair":
           track = ElectricChair;
+          break;
+        case "Abyss":
+          track = Abyss;
           break;
         default:
           break;

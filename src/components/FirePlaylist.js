@@ -8,6 +8,9 @@ import Tempted from "../songs/Tempted.mp3"
 import MrMiyagi from "../songs/MrMiyagi.mp3"
 import PointGuard from "../songs/PointGuard.mp3"
 import PurpleMoncler from "../songs/PurpleMoncler.mp3"
+import Six from "../songs/6.mp3"
+import Nine0210 from "../songs/90210.mp3"
+
 
 
 
@@ -72,6 +75,16 @@ import PurpleMoncler from "../songs/PurpleMoncler.mp3"
                 title: "Purple Moncler",
                 url: ""
                 
+            },
+            {
+              id: 8,
+              title: "Six",
+              url: ""
+            },
+            {
+              id: 9,
+              title: "90210",
+              url: ""
             }
             ].map(item => {
             return (
@@ -182,6 +195,12 @@ componentDidUpdate(prevProps, prevState) {
           break;
         case "Purple Moncler":
           track = PurpleMoncler;
+          break;
+        case "Six":
+          track = Six;
+          break;
+        case "90210":
+          track = Nine0210;
           break;
         default:
           break;
