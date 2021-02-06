@@ -4,7 +4,6 @@ import "../Playlist.css"
 
 import TheLight from "../songs/TheLight.mp3"
 import Starstruck from "../songs/Starstruck.mp3"
-import RemindMeOfTheSummer from "../songs/RemindMeOfTheSummer.mp3"
 import OnYourMind from "../songs/OnYourMind.mp3"
 import CaliGirl from "../songs/CaliGirl.mp3"
 import PlayForKeeps from "../songs/PlayForKeeps.mp3"

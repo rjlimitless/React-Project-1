@@ -12,7 +12,6 @@ import ElectricChair from "../songs/ElectricChair.mp3"
 import Abyss from "../songs/Abyss.mp3"
 import AnotherWay from "../songs/AnotherWay.mp3"
 import BadEnergy from "../songs/BadEnergy.mp3"
-import Barbarian from "../songs/Barbarian.mp3"
 import BeenMyself from "../songs/BeenMyself.mp3"
 
 
@@ -102,14 +101,9 @@ import BeenMyself from "../songs/BeenMyself.mp3"
             },
             {
               id: 12,
-              title: "Barbarian",
-              url: ""
-            },
-            {
-              id: 13,
               title: "Been Myself",
               url: ""
-            },
+            }
             ].map(item => {
             return (
                 <div className="ui list">
@@ -231,9 +225,6 @@ componentDidUpdate(prevProps, prevState) {
           break;
         case "Bad Energy":
           track = BadEnergy;
-          break;
-        case "Barbarian":
-          track = Barbarian;
           break;
         case "Been Myself":
           track = BeenMyself;
