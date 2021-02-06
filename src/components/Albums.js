@@ -1,53 +1,60 @@
 import React, { useState } from 'react'
 import '../App.css'
-import AudioPlayer, { RHAP_UI } from 'react-h5-audio-player'
+// import AudioPlayer, { RHAP_UI } from 'react-h5-audio-player'
+
+//Components
+import ChillPlaylist from ".//ChillPlaylist"
+import SadPlaylist from "./SadPlaylist"
+import FirePlaylist from "./FirePlaylist"
+import FreestylePlaylist from "./FreestylePlaylist"
+
 
 //import react-h5-audio-player
 import 'react-h5-audio-player/lib/styles.css';
 
-//Chill
-import TheLight from "../songs/TheLight.mp3"
-import Starstruck from "../songs/Starstruck.mp3"
-import RemindMeOfTheSummer from "../songs/RemindMeOfTheSummer.mp3"
-import OnYourMind from "../songs/OnYourMind.mp3"
-import CaliGirl from "../songs/CaliGirl.mp3"
-import PlayForKeeps from "../songs/PlayForKeeps.mp3"
-import Rental from "../songs/Rental.mp3"
+// //Chill
+// import TheLight from "../songs/TheLight.mp3"
+// import Starstruck from "../songs/Starstruck.mp3"
+// import RemindMeOfTheSummer from "../songs/RemindMeOfTheSummer.mp3"
+// import OnYourMind from "../songs/OnYourMind.mp3"
+// import CaliGirl from "../songs/CaliGirl.mp3"
+// import PlayForKeeps from "../songs/PlayForKeeps.mp3"
+// import Rental from "../songs/Rental.mp3"
 
 
-//Sad
-import FallInMyArms from "../songs/FallInMyArms.mp3"
-import AllAlone from "../songs/AllAlone.mp3"
-import PutMeDown from "../songs/PutMeDown.mp3"
-import Anxiety from "../songs/Anxiety.mp3"
-import Burn from "../songs/Burn.mp3"
-import Deprived from "../songs/Deprived.mp3"
-import BlueShit from "../songs/BlueShit.mp3"
-import ElectricChair from "../songs/ElectricChair.mp3"
-
-
-
-//Fire
-import HateHerFriends from "../songs/HateHerFriends.mp3"
-import Triple9 from "../songs/Triple9.mp3"
-import SorryMom from "../songs/SorryMom.mp3"
-import Tempted from "../songs/Tempted.mp3"
-import MrMiyagi from "../songs/MrMiyagi.mp3"
-import PointGuard from "../songs/PointGuard.mp3"
-import PurpleMoncler from "../songs/PurpleMoncler.mp3"
+// //Sad
+// import FallInMyArms from "../songs/FallInMyArms.mp3"
+// import AllAlone from "../songs/AllAlone.mp3"
+// import PutMeDown from "../songs/PutMeDown.mp3"
+// import Anxiety from "../songs/Anxiety.mp3"
+// import Burn from "../songs/Burn.mp3"
+// import Deprived from "../songs/Deprived.mp3"
+// import BlueShit from "../songs/BlueShit.mp3"
+// import ElectricChair from "../songs/ElectricChair.mp3"
 
 
 
+// //Fire
+// import HateHerFriends from "../songs/HateHerFriends.mp3"
+// import Triple9 from "../songs/Triple9.mp3"
+// import SorryMom from "../songs/SorryMom.mp3"
+// import Tempted from "../songs/Tempted.mp3"
+// import MrMiyagi from "../songs/MrMiyagi.mp3"
+// import PointGuard from "../songs/PointGuard.mp3"
+// import PurpleMoncler from "../songs/PurpleMoncler.mp3"
 
-//Freestyle
-import Freestyle1 from "../songs/Freestyle1.mp3"
-import Freestyle2 from "../songs/Freestyle2.mp3"
-import Freestyle3 from "../songs/Freestyle3.mp3"
-import Freestyle4 from "../songs/Freestyle4.mp3"
-import Freestyle5 from "../songs/Freestyle5.mp3"
-import Freestyle6 from "../songs/Freestyle6.mp3"
-import Freestyle7 from "../songs/Freestyle7.mp3"
-import Freestyle8 from "../songs/Freestyle8.mp3"
+
+
+
+// //Freestyle
+// import Freestyle1 from "../songs/Freestyle1.mp3"
+// import Freestyle2 from "../songs/Freestyle2.mp3"
+// import Freestyle3 from "../songs/Freestyle3.mp3"
+// import Freestyle4 from "../songs/Freestyle4.mp3"
+// import Freestyle5 from "../songs/Freestyle5.mp3"
+// import Freestyle6 from "../songs/Freestyle6.mp3"
+// import Freestyle7 from "../songs/Freestyle7.mp3"
+// import Freestyle8 from "../songs/Freestyle8.mp3"
 
 
 
@@ -86,16 +93,18 @@ export default function Albums() {
                                 onClick={() => setPlaylist1open(!isPlaylist1open)}>
                                 X</button>
 
+    
+
                    <li className={isPlaylist1open ? '' : 'hide'}>
 
+                        <ul><ChillPlaylist></ChillPlaylist></ul>
 
 
 
+                    
 
 
-
-
-                    <ul><div id={'audioplayer1'}>
+                    {/* <ul><div id={'audioplayer1'}>
                             <AudioPlayer
 
                                 src={TheLight}
@@ -306,7 +315,7 @@ export default function Albums() {
                                 }
                                 />
                         </div>
-                        </ul>
+                        </ul> */}
 
 
 
@@ -335,10 +344,10 @@ export default function Albums() {
                         <li className={isPlaylist2open ? '' : 'hide'}>
 
 
+                            <ul><SadPlaylist></SadPlaylist></ul>
 
 
-
-                            <ul><div id={'audioplayer2'}>
+                            {/* <ul><div id={'audioplayer2'}>
                                 <AudioPlayer
 
                                 src={FallInMyArms}
@@ -560,7 +569,7 @@ export default function Albums() {
                                     }
                                 />
                             </div>
-                            </ul>
+                            </ul> */}
 
 
 
@@ -670,11 +679,11 @@ export default function Albums() {
 
 
 
+                                    <ul><FirePlaylist></FirePlaylist></ul>
 
 
 
-
-                                        <ul><div id={'audioplayer3'}>
+                                        {/* <ul><div id={'audioplayer3'}>
                                                 <AudioPlayer
 
                                                     src={HateHerFriends}
@@ -895,7 +904,7 @@ export default function Albums() {
                                             }
                                             />
                                         </div>
-                                        </ul>
+                                        </ul> */}
 
 
 
@@ -923,13 +932,13 @@ export default function Albums() {
 
 
 
+             <ul><FreestylePlaylist></FreestylePlaylist></ul>
 
 
 
 
 
-
-            <ul><div id={'audioplayer4'}>
+            {/* <ul><div id={'audioplayer4'}>
                 <AudioPlayer
 
                 src={Freestyle1}
@@ -1162,7 +1171,7 @@ export default function Albums() {
                     }
                 />
                 </div>
-                </ul>
+                </ul> */}
 
 
 

@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <h3>RIP Juice WRLD</h3>
+      <h3>Rest In Peace Juice WRLD 1998 - 2019</h3>
       <Albums />
     </>
   )

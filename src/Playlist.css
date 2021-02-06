@@ -1,0 +1,139 @@
+.header {
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: underline;
+}
+
+.info-container{
+    width: 40vw;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.button-container{
+    margin-left: .8rem;
+    margin-top: 1rem;
+}
+
+.song-time{
+    font-size: 1rem;
+    padding: 0 .5rem 0 .5rem;
+    color: white;
+    position: fixed;
+    top: 3rem;
+    left: 4.7rem;
+    background-color: rgba(0, 0, 0, 0.734);
+
+
+}
+
+.song-time2{
+    font-size: 1rem;
+    padding: 0 .5rem 0 .5rem;
+    color: white;
+    position: fixed;
+    margin: 4.6rem 0 0 4.5rem;
+    background-color: rgba(0, 0, 0, 0.734);
+
+}
+
+
+.current-song{
+    font-size: 1.2rem;
+    color: white;
+    font-style: italic;
+    position: fixed;
+    top: 3.3rem;
+    left: 8rem;
+    background-color: rgba(0, 0, 0, 0.734);
+
+}
+
+
+.current-song2{
+    font-size: 1.2rem;
+    color: white;
+    font-style: italic;
+    position: fixed;
+    top: 3.5rem;
+    left: 8rem;
+    background-color: rgba(0, 0, 0, 0.734);
+}
+
+
+
+.play-btn{
+    height: 7vh;
+    width: 7vh;
+    border-radius: 7%;
+    font-size: 5vh;
+    background-image: url('./images/JuicePlayBtn.jpg');
+    background-size: cover;
+    position: fixed;
+    border: 2px solid white;
+    
+}
+
+
+
+
+.play-btn:hover{
+    background: none;
+    background-color:rgba(255, 0, 255, 0.433);
+}
+
+.pause-btn{
+    height: 7vh;
+    width: 7vh;
+    border-radius: 7%;
+    font-size: 5vh;
+    background-image: url('./images/JuicePauseBtn.jpg');
+    background-size: cover;
+    position: fixed;
+    border: 2px solid white;
+}
+
+
+.pause-btn:hover{
+    background: none;
+    background-color:rgba(255, 0, 255, 0.433);
+}
+
+.playlist { 
+    display: flex;
+    position: fixed;
+    left: 18vw;
+    top: 13vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 2rem;
+
+
+}
+
+.title{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 1%;
+    margin: .7vh 0 1vh 0;
+    color: white;
+    padding: 0.69rem;
+    background-image: black;
+
+}
+
+.item{
+    background-color: rgba(0, 0, 0, 0.659);
+}
+
+.title:active{
+    background-color: rgba(255, 0, 255, 0.453);
+}
+
+.title:hover{
+    background-color: rgba(255, 0, 255, 0.433);
+}
