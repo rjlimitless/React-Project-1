@@ -80,10 +80,6 @@
 }
 
 
-.play-btn:hover{
-    background: none;
-    background-color:rgba(255, 0, 255, 0.433);
-}
 
 .pause-btn{
     height: 7vh;
@@ -97,19 +93,15 @@
 }
 
 
-.pause-btn:hover{
-    background: none;
-    background-color:rgba(255, 0, 255, 0.433);
-}
 
 .playlist { 
     display: flex;
     position: fixed;
-    left: 18vw;
+    left: 33vw;
     top: 13vh;
     flex-direction: column;
     justify-content: flex-start;
-    font-size: 1.7rem;
+    font-size: 1rem;
 
 
 }
@@ -119,7 +111,7 @@
     border-radius: 1%;
     margin: .7vh 0 1vh 0;
     color: white;
-    padding: 0.69rem;
+    padding: 0.4rem;
     background-image: black;
 
 }
