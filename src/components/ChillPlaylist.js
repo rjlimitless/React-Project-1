@@ -203,9 +203,6 @@ componentDidUpdate(prevProps, prevState) {
         case "Rental":
           track = Rental;
           break;
-        case "Twenty Four":
-          track = TwentyFour;
-          break;
         case "Any Other Way":
           track = AnyOtherWay;
           break;
