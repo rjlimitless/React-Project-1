@@ -9,7 +9,6 @@ import OnYourMind from "../songs/OnYourMind.mp3"
 import CaliGirl from "../songs/CaliGirl.mp3"
 import PlayForKeeps from "../songs/PlayForKeeps.mp3"
 import Rental from "../songs/Rental.mp3"
-import TwentyFour from "../songs/24.mp3"
 import AnyOtherWay from "../songs/AnyOtherWay.mp3"
 import BackInChicago from "../songs/BackInChicago.mp3"
 import BankAccount from "../songs/BankAccount.mp3"
@@ -79,26 +78,21 @@ import BeenAWhile from "../songs/BeenAWhile.mp3"
             },
             {
               id: 7,
-              title: "24",
-              url: ""
-            },
-            {
-              id: 8,
               title: "Any Other Way",
               url: ""
             },
             {
-              id: 9,
+              id: 8,
               title: "Back In Chicago",
               url: ""
             },
             {
-              id: 10,
+              id: 9,
               title: "Bank Account",
               url: ""
             },
             {
-              id: 11,
+              id: 10,
               title: "Been a While",
               url: ""
             }
