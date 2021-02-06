@@ -4,8 +4,8 @@ import '../App.css'
 
 //Components
 import ChillPlaylist from ".//ChillPlaylist"
-import SadPlaylist from "./SadPlaylist"
-import FirePlaylist from "./FirePlaylist"
+import SomberPlaylist from "./SomberPlaylist"
+import HypePlaylist from "./HypePlaylist"
 import FreestylePlaylist from "./FreestylePlaylist"
 
 
@@ -344,7 +344,7 @@ export default function Albums() {
                         <li className={isPlaylist2open ? '' : 'hide'}>
 
 
-                            <ul><SadPlaylist></SadPlaylist></ul>
+                            <ul><SomberPlaylist></SomberPlaylist></ul>
 
 
                             {/* <ul><div id={'audioplayer2'}>
@@ -593,7 +593,7 @@ export default function Albums() {
                     className="btn album-cover-2"
                     onClick={() => setPlaylist2open(!isPlaylist2open)}
                         
-                    >Sad
+                    >Somber
                 </button>
             </div>
 
@@ -679,7 +679,7 @@ export default function Albums() {
 
 
 
-                                    <ul><FirePlaylist></FirePlaylist></ul>
+                                    <ul><HypePlaylist></HypePlaylist></ul>
 
 
 
@@ -1186,7 +1186,7 @@ export default function Albums() {
             <div className='btn-container'>
                 <button className="btn album-cover-3"
                         onClick={() => setPlaylist3open(!isPlaylist3open)}
-                        >Fire</button>
+                        >Hype</button>
 
                 <button className="btn album-cover-4"
                         onClick={() => setPlaylist4open(!isPlaylist4open)}

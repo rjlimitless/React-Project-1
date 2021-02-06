@@ -10,6 +10,8 @@ import CaliGirl from "../songs/CaliGirl.mp3"
 import PlayForKeeps from "../songs/PlayForKeeps.mp3"
 import Rental from "../songs/Rental.mp3"
 import TwentyFour from "../songs/24.mp3"
+import AnyOtherWay from "../songs/AnyOtherWay.mp3"
+
 
 
 
@@ -72,7 +74,11 @@ import TwentyFour from "../songs/24.mp3"
               id: 7,
               title: "Twenty Four",
               url: ""
-              
+            },
+            {
+              id: 8,
+              title: "Any Other Way",
+              url: ""
             }
             ].map(item => {
             return (
@@ -184,6 +190,9 @@ componentDidUpdate(prevProps, prevState) {
         case "Twenty Four":
           track = TwentyFour;
           break;
+        case "Any Other Way":
+          track = AnyOtherWay;
+          break;
         default:
           break;
       }
@@ -196,6 +205,8 @@ componentDidUpdate(prevProps, prevState) {
         });
       }
     }
+
+      
 
     if (this.state.music !== prevState.music) {
       if (this.state.music === "paused") {
