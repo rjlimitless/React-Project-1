@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Project-1/static/css/main.2d01dec3.chunk.css",
-    "main.js": "/React-Project-1/static/js/main.8ecfe58d.chunk.js",
-    "main.js.map": "/React-Project-1/static/js/main.8ecfe58d.chunk.js.map",
+    "main.js": "/React-Project-1/static/js/main.3f25c6ec.chunk.js",
+    "main.js.map": "/React-Project-1/static/js/main.3f25c6ec.chunk.js.map",
     "runtime-main.js": "/React-Project-1/static/js/runtime-main.2b63d35f.js",
     "runtime-main.js.map": "/React-Project-1/static/js/runtime-main.2b63d35f.js.map",
     "static/css/2.3e35cbb6.chunk.css": "/React-Project-1/static/css/2.3e35cbb6.chunk.css",
@@ -12,7 +12,6 @@
     "static/css/2.3e35cbb6.chunk.css.map": "/React-Project-1/static/css/2.3e35cbb6.chunk.css.map",
     "static/css/main.2d01dec3.chunk.css.map": "/React-Project-1/static/css/main.2d01dec3.chunk.css.map",
     "static/js/2.cbc4e83d.chunk.js.LICENSE.txt": "/React-Project-1/static/js/2.cbc4e83d.chunk.js.LICENSE.txt",
-    "static/media/24.fbbb1673.mp3": "/React-Project-1/static/media/24.fbbb1673.mp3",
     "static/media/6.3f86ee6d.mp3": "/React-Project-1/static/media/6.3f86ee6d.mp3",
     "static/media/90210.29e9c286.mp3": "/React-Project-1/static/media/90210.29e9c286.mp3",
     "static/media/Abyss.ff320f47.mp3": "/React-Project-1/static/media/Abyss.ff320f47.mp3",
@@ -62,6 +61,6 @@
     "static/css/2.3e35cbb6.chunk.css",
     "static/js/2.cbc4e83d.chunk.js",
     "static/css/main.2d01dec3.chunk.css",
-    "static/js/main.8ecfe58d.chunk.js"
+    "static/js/main.3f25c6ec.chunk.js"
   ]
 }
