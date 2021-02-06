@@ -14,8 +14,6 @@ import AnotherWay from "../songs/AnotherWay.mp3"
 import BadEnergy from "../songs/BadEnergy.mp3"
 import Barbarian from "../songs/Barbarian.mp3"
 import BeenMyself from "../songs/BeenMyself.mp3"
-import BeenThroughThis from "../songs/BeenThroughThis.mp3"
-
 
 
 
@@ -112,11 +110,6 @@ import BeenThroughThis from "../songs/BeenThroughThis.mp3"
               title: "Been Myself",
               url: ""
             },
-            {
-              id: 14,
-              title: "Through This ft. Miley",
-              url: ""
-            }
             ].map(item => {
             return (
                 <div className="ui list">
@@ -244,9 +237,6 @@ componentDidUpdate(prevProps, prevState) {
           break;
         case "Been Myself":
           track = BeenMyself;
-          break;
-        case "Through This":
-          track = BeenThroughThis;
           break;
         default:
           break;
