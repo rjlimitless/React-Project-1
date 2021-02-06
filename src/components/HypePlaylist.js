@@ -210,7 +210,7 @@ componentDidUpdate(prevProps, prevState) {
           track = Nine0210;
           break;
         case "Amazing":
-          track = Nine0210;
+          track = Amazing;
           break;
         default:
           break;
