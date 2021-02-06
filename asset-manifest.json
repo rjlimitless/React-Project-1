@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Project-1/static/css/main.2d01dec3.chunk.css",
-    "main.js": "/React-Project-1/static/js/main.3f25c6ec.chunk.js",
-    "main.js.map": "/React-Project-1/static/js/main.3f25c6ec.chunk.js.map",
+    "main.js": "/React-Project-1/static/js/main.5d8a0dac.chunk.js",
+    "main.js.map": "/React-Project-1/static/js/main.5d8a0dac.chunk.js.map",
     "runtime-main.js": "/React-Project-1/static/js/runtime-main.2b63d35f.js",
     "runtime-main.js.map": "/React-Project-1/static/js/runtime-main.2b63d35f.js.map",
     "static/css/2.3e35cbb6.chunk.css": "/React-Project-1/static/css/2.3e35cbb6.chunk.css",
@@ -23,7 +23,6 @@
     "static/media/BackInChicago.380cfe1c.mp3": "/React-Project-1/static/media/BackInChicago.380cfe1c.mp3",
     "static/media/BadEnergy.bde9486f.mp3": "/React-Project-1/static/media/BadEnergy.bde9486f.mp3",
     "static/media/BankAccount.20477d66.mp3": "/React-Project-1/static/media/BankAccount.20477d66.mp3",
-    "static/media/Barbarian.6332016f.mp3": "/React-Project-1/static/media/Barbarian.6332016f.mp3",
     "static/media/BeenAWhile.18bc2319.mp3": "/React-Project-1/static/media/BeenAWhile.18bc2319.mp3",
     "static/media/BeenMyself.82004c08.mp3": "/React-Project-1/static/media/BeenMyself.82004c08.mp3",
     "static/media/Burn.7040261a.mp3": "/React-Project-1/static/media/Burn.7040261a.mp3",
@@ -61,6 +60,6 @@
     "static/css/2.3e35cbb6.chunk.css",
     "static/js/2.cbc4e83d.chunk.js",
     "static/css/main.2d01dec3.chunk.css",
-    "static/js/main.3f25c6ec.chunk.js"
+    "static/js/main.5d8a0dac.chunk.js"
   ]
 }
