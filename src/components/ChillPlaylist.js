@@ -11,6 +11,13 @@ import PlayForKeeps from "../songs/PlayForKeeps.mp3"
 import Rental from "../songs/Rental.mp3"
 import TwentyFour from "../songs/24.mp3"
 import AnyOtherWay from "../songs/AnyOtherWay.mp3"
+import BackInChicago from "../songs/BackInChicago.mp3"
+import BankAccount from "../songs/BankAccount.mp3"
+import BeenAWhile from "../songs/BeenAWhile.mp3"
+
+
+
+
 
 
 
@@ -72,12 +79,27 @@ import AnyOtherWay from "../songs/AnyOtherWay.mp3"
             },
             {
               id: 7,
-              title: "Twenty Four",
+              title: "24",
               url: ""
             },
             {
               id: 8,
               title: "Any Other Way",
+              url: ""
+            },
+            {
+              id: 9,
+              title: "Back In Chicago",
+              url: ""
+            },
+            {
+              id: 10,
+              title: "Bank Account",
+              url: ""
+            },
+            {
+              id: 11,
+              title: "Been a While",
               url: ""
             }
             ].map(item => {
@@ -192,6 +214,15 @@ componentDidUpdate(prevProps, prevState) {
           break;
         case "Any Other Way":
           track = AnyOtherWay;
+          break;
+        case "Back In Chicago":
+          track = BackInChicago;
+          break;
+        case "Bank Account":
+          track = BankAccount;
+          break;
+        case "Been a While":
+          track = BeenAWhile;
           break;
         default:
           break;
